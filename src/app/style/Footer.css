@@ -1,0 +1,21 @@
+.bg-gray-700 {
+    background-color: #2d3748; /* Tailwind's bg-gray-700 */
+  }
+  
+  .footer {
+    background-color: #fbbf24; /* Tailwind's bg-yellow-400 */
+    font-weight: bold; /* Tailwind's font-bold */
+    padding: 16px 0; /* Tailwind's py-4 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-md */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-text {
+    color: #4a5568; /* Tailwind's text-gray-600 */
+  }
+  
