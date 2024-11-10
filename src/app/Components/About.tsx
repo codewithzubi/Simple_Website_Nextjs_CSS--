@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import "../style/About.css"
 const About = () => {
   return (
@@ -13,29 +14,23 @@ const About = () => {
         </p>
         <div className="team">
           <div className="team-member">
-            <img
+          <Image src="/pr-1.jpeg" alt="Portrait of team member one" width={500} height={300} />
+            
+              {/* <img
               alt="Portrait of team member one"
               className="team-member-image"
               src="pr-1.jpeg"
-            />
+            /> */}
             <h3 className="team-member-name">Zubair Ahmed</h3>
             <p className="team-member-role">Lead Developer</p>
           </div>
           <div className="team-member">
-            <img
-              alt="Portrait of team member two"
-              className="team-member-image"
-              src="pr-2.jpeg"
-            />
+          <Image src="/pr-2.jpeg" alt="Portrait of team member one" width={500} height={300} />
             <h3 className="team-member-name">Rukhsar Nani</h3>
             <p className="team-member-role">Senior Designer</p>
           </div>
           <div className="team-member">
-            <img
-              alt="Portrait of team member three"
-              className="team-member-image"
-              src="pr-3.jpeg"
-            />
+          <Image src="/pr-3.jpeg" alt="Portrait of team member one" width={500} height={300} />
             <h3 className="team-member-name">Aliza Shah</h3>
             <p className="team-member-role">Project Manager</p>
           </div>
